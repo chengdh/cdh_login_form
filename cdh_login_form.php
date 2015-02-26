@@ -26,3 +26,5 @@ function cdh_login_form_js() {
 }
 
 add_action('login_enqueue_scripts', 'cdh_login_form_js');
+remove_action( 'login_init', 'send_frame_options_header' );
+remove_action( 'admin_init', 'send_frame_options_header' );

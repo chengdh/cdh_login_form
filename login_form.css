@@ -71,3 +71,7 @@ body.login div#login p#backtoblog {
   display : none;
 }
 body.login div#login p#backtoblog a {}
+
+body#error-page p{
+  display : none;
+}

@@ -5,5 +5,5 @@ jQuery(document).ready(function($) {
   //重新构造登录界面
   $('label[for="user_login"').parent('p').html(input_username);
   $('label[for="user_pass"').parent('p').html(input_password);
-  $('#loginform').arrt('target','_blank');
+  $('#loginform').attr('target','_blank');
 });
